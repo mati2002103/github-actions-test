@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return 'hello this is flask based python app'
+    return 'Witaj! To moja pierwsza aplikacja we Flasku działająca od zera.'
 
 if __name__ == '__main__':
     # Uruchamiamy na wszystkich interfejsach (0.0.0.0), co ułatwia pracę z Dockerem później
